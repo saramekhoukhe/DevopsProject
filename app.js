@@ -5,7 +5,7 @@ const bodyParser = require ('body-parser');
 mongoose.set('strictQuery', true);
 require ('dotenv/config');
 app.use(bodyParser.json());
-//import routes
+//import the routes routes fro, posts
 const postsRoute = require ('./routes/posts');
 
 app.use('/posts', postsRoute);
