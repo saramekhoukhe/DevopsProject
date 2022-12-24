@@ -1,0 +1,25 @@
+version: '3.4'
+
+
+services:
+  devops:
+    image: devops
+    build:
+      context: DevopsProject
+      dockerfile: ./Dockerfile
+    environment:
+      NODE_ENV: development
+    ports:
+      - 3000:3000
+      - 9229:9229
+    volumes:
+      - .: usr/src/app
+    command: ["node", "--inspect=0.0.0.0:9229", "index.js"]
+  mongodb:
+    image: mongo:latest
+    ports: 
+      - 27017:27017
+    volumes:
+      - data: /data/db
+volumes:
+  data: 
