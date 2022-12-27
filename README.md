@@ -123,6 +123,10 @@ kubectl create -f pod.yml
 
 -Deployment: [deployment.yml](https://github.com/saramekhoukhe/DevopsProject/blob/main/deployment.yml)
 
+## 7.Servive Mesh avec Istio
+
+
+
 
 
 
