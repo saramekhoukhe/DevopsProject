@@ -3,6 +3,7 @@
 Pour commencer, nous avons créé une application API utilisateur avec la fonctionnalité utilisateur CRUD avec NodeJs en stockant les donnees dans une base de donnees MongoDB.
 
 ####Ses fonctionalitées:
+
 **POST**: Ajouter et publier un USER (Username et UserInfos) dans la base de données
 
 **GET**:  Récupérer les informations des USERS de la base de données en utilisant _Id attribué par cette dernière lors du POST
