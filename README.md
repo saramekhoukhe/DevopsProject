@@ -86,7 +86,31 @@ Le fichier Docker Compose:
 ![App Screenshot](https://user-images.githubusercontent.com/115075351/209585961-523f071f-5470-4de5-8306-e304cfde5b8c.PNG)
 ![App Screenshot](https://user-images.githubusercontent.com/115075351/209585965-3899337f-eee8-48e1-b3d5-5fc1795d22dc.PNG)
 
-## 6. Oorchestration docker avec Kubernetes
+## 6. Orchestration docker avec Kubernetes
+
+**Installation de minikube** 
+
+**Commandes:**
+```bash
+ sudo apt install -y curl wget apt-transport-https
+ sudo cp minikube-linux-amd64 /usr/local/bin/minikube
+ sudo chmod +x /usr/local/bin/minikube
+```
+
+![App Screenshot](https://user-images.githubusercontent.com/115075351/209669982-2ace8fbc-cbb0-4aa3-b779-d11ccf7ef600.PNG)
+
+
+**Installation du cluster Kubernetes à l'aide de Minikube** 
+
+**Commandes**
+```bash
+minikube start
+```
+
+![App Screenshot](https://user-images.githubusercontent.com/115075351/209670175-f989d4b7-ea00-4b34-b6b7-69c38233b96f.PNG)
+
+![App Screenshot](https://user-images.githubusercontent.com/115075351/209670175-f989d4b7-ea00-4b34-b6b7-69c38233b96f.PNG)
+
 
 
 
