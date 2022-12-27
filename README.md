@@ -1,10 +1,15 @@
 
 ## 1. Création d'une application Web avec NodeJs:
 Pour commencer, nous avons créé une application API utilisateur avec la fonctionnalité utilisateur CRUD avec NodeJs en stockant les donnees dans une base de donnees MongoDB.
+
 -Ses fonctionalitées:
+
 POST: Ajouter et publier un USER (Username et UserInfos) dans la base de données
+
 GET:  Récupérer les informations des USERS de la base de données en utilisant _Id attribué par cette dernière lors du POST
+
 PUT: Mettre à jour, modifier un USER déjà existant dans la base de données
+
 DELETE: Supprimer un USER de la base de données
 
 Nous avons verifié le bon fonctionnement de l'application via POSTMAN:
@@ -13,19 +18,34 @@ Le résultat sur la base de données MongoDB:
 ![App Screenshot](https://user-images.githubusercontent.com/115075351/209561658-f2d27c44-466c-40ab-a2b6-26ca28e6d3da.PNG)
 
 ## 2. Application du pipeline CI/CD
-Pour l'Intégration Continue, on a utilisé Github Action.
+Pour l'Intégration Continue, nous avons utilisé Github Action.
 On a créé un Folder .github/workflows qui contient un fichier .YML et une autre branche appelée "develop".
 
 Ce dernier, vérifie les push vers la branche "main" et les pullrequest vers la branche "develop"
 
 ![App Screenshot](https://user-images.githubusercontent.com/115075351/209561783-5dd4fa8b-4174-47e4-9bed-b9464d72672f.PNG)
 
+Pour le deploiment, nous avons opté pour Azure Wep App:
+
+Nous avons installé Azure Tools sur VS code, nous avons ensuite créé un compte sur la plateforme [Azure](https://azure.microsoft.com/fr-fr/), avec un abonnement étudiant, nous avons obtenu un essai gratuit pour 365jours:
+![App Screenshot](https://user-images.githubusercontent.com/115075351/209599403-53ca6239-1bba-4217-be19-141d8552820e.PNG)
+
+Depuis Command Palette de VS code, nous nous sommes connectées a [Azure](https://azure.microsoft.com/fr-fr/), ensuite deployer notre Web App.
+
 ## 3. Approvisonnement et la configuration de l'environnement:
+Nous avons Installé Vagrant sur notre VM
+
+Nous avons ensuite exécuté la commande: 
+```http
+  Vagrant up
+```
 
 -Configuration de la VM avec Vagrant: 
 ![App Screenshot](https://user-images.githubusercontent.com/115075351/209582241-6601b9cf-0ac1-4828-af95-ef9c16c1c9e5.PNG)
 
+-Par défault, Vagrant a généré le fichier ####Vagrantfile
 ![App Screenshot](https://user-images.githubusercontent.com/115075351/209585439-a676efbd-6416-4d9f-981b-7e6215220938.PNG)
+
 -Installation d'Ansible sur la VM:
 ![App Screenshot](https://user-images.githubusercontent.com/115075351/209585263-0e62eb5e-a400-4c0f-9756-7d0774924ed4.PNG)
 
