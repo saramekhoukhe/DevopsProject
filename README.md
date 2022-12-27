@@ -1,8 +1,8 @@
 
 ## 1. Création d'une application Web avec NodeJs:
-Pour commencer, nous avons créé une application API utilisateur avec la fonctionnalité utilisateur CRUD avec NodeJs en stockant les donnees dans une base de donnees MongoDB.
+Pour commencer, nous avons créé une application API utilisateur avec la fonctionnalité utilisateur CRUD avec NodeJs en stockant les donnees dans une base de donnees  [MongoDB](https://www.mongodb.com/atlas/database).
 
-####Ses fonctionalitées:
+#### Ses fonctionalitées:
 
 **POST**: Ajouter et publier un USER (Username et UserInfos) dans la base de données
 
@@ -14,7 +14,7 @@ Pour commencer, nous avons créé une application API utilisateur avec la foncti
 
 Nous avons verifié le bon fonctionnement de l'application via **POSTMAN**:
 ![App Screenshot](https://user-images.githubusercontent.com/115075351/209561222-e37469c0-3484-41c6-a8c3-8c5189f994a6.PNG)
-Le résultat sur la base de données **MongoDB**:
+Le résultat sur la base de données  [MongoDB](https://www.mongodb.com/atlas/database):
 ![App Screenshot](https://user-images.githubusercontent.com/115075351/209561658-f2d27c44-466c-40ab-a2b6-26ca28e6d3da.PNG)
 
 ## 2. Application du pipeline CI/CD
@@ -25,9 +25,10 @@ Ce dernier, vérifie les push vers la branche "main" et les pullrequest vers la 
 
 ![App Screenshot](https://user-images.githubusercontent.com/115075351/209561783-5dd4fa8b-4174-47e4-9bed-b9464d72672f.PNG)
 
+
 Pour le deploiment, nous avons opté pour **Azure**:
 
-Nous avons installé Azure Tools sur VS code, nous avons ensuite créé un compte sur la plateforme [Azure](https://azure.microsoft.com/fr-fr/), avec un abonnement **Azur fpr Student**, nous avons obtenu un essai gratuit pour 365jours:
+Nous avons installé Azure Tools sur VS code, nous avons ensuite créé un compte sur la plateforme [Azure](https://azure.microsoft.com/fr-fr/), avec un abonnement **Azur for Student**, nous avons obtenu un essai gratuit pour 365jours:
 ![App Screenshot](https://user-images.githubusercontent.com/115075351/209599403-53ca6239-1bba-4217-be19-141d8552820e.PNG)
 
 Depuis **Command Palette** de VS code, nous nous sommes connectées a [Azure](https://azure.microsoft.com/fr-fr/), ensuite deployer notre Web App.
@@ -56,15 +57,15 @@ Nous avons ensuite exécuté la commande:
  docker build -t devops
  docker run devops
 ```
-####Résulat :
+#### Résulat :
 
 Image créé:
 ![App Screenshot](https://user-images.githubusercontent.com/115075351/209585748-63ed6d98-13b4-4d37-bc86-fad75ddbb31a.PNG)
 
-**Pusher l'image créé vers Docker HUB:**
+**Pusher l'image créé vers [Docker HUB](https://hub.docker.com/):**
 ![App Screenshot](https://user-images.githubusercontent.com/115075351/209585828-877b2266-3cad-40f3-8185-7cdd8f8af338.PNG)
  
- **L'image sur Dokcer HUB:**
+ **L'image sur [Docker HUB](https://hub.docker.com/):**
  ![App Screenshot](https://user-images.githubusercontent.com/115075351/209586105-64daa7dd-600c-47cb-ab58-1738a69a2498.PNG)
  ![App Screenshot](https://user-images.githubusercontent.com/115075351/209585872-ee6c18ab-3997-4918-827f-98356a797e3c.PNG)
 
