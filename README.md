@@ -113,6 +113,7 @@ kubectl get nodes
 ![App Screenshot](https://user-images.githubusercontent.com/115075351/209670539-6016e7ef-f50f-4c83-a41f-1a4195ceae8b.PNG)
 
 **Création des fichiers YAML de manifeste Kubernetes**
+
 **Commandes**
 ```bash
 vi pod.yml
