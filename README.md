@@ -1,3 +1,15 @@
+## Authors
+
+- [@saramekhoukhe](https://github.com/saramekhoukhe)
+
+- [@wasanalmalki](https://github.com/wasanalmalki)
+
+
+
+
+# Voici notre projet de DevOps! 👋
+![Logo](https://user-images.githubusercontent.com/115075351/209720478-0ab44163-49f6-4dfd-a51e-0091cf9ede44.png)
+
 
 ## 1. Création d'une application Web avec NodeJs:
 Pour commencer, nous avons créé une application API utilisateur avec la fonctionnalité utilisateur CRUD avec NodeJs en stockant les donnees dans une base de donnees  [MongoDB](https://www.mongodb.com/atlas/database).
@@ -124,6 +136,28 @@ kubectl create -f pod.yml
 -Deployment: [deployment.yml](https://github.com/saramekhoukhe/DevopsProject/blob/main/deployment.yml)
 
 ## 7.Servive Mesh avec Istio
+
+
+## Documentation
+
+[MongoDB Atlas](https://www.mongodb.com/docs/atlas/)
+
+[Pipeline CI/CD](https://learn.microsoft.com/fr-fr/azure/cloud-adoption-framework/innovate/considerations/ci-cd)
+
+[Vagrant](https://blog.stephane-robert.info/post/introduction-vagrant/)
+
+[Ansible](https://docs.ansible.com/)
+
+[Docker](https://docs.docker.com/)
+
+[Kubernetes](https://kubernetes.io/docs/home/)
+
+istio [Voir ces instructions](https://github.com/GoogleCloudPlatform/microservices-demo/blob/main/docs/service-mesh.md/)
+
+Anthos Service Mesh [Voir ces instructions:](https://github.com/GoogleCloudPlatform/microservices-demo/blob/main/docs/service-mesh.md)
+
+
+Clusters (Minikube) [Developement Guide](https://github.com/GoogleCloudPlatform/microservices-demo/blob/main/docs/development-guide.md)
 
 
 
