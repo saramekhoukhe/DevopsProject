@@ -63,6 +63,13 @@ Image créé:
 ![App Screenshot](https://user-images.githubusercontent.com/115075351/209585748-63ed6d98-13b4-4d37-bc86-fad75ddbb31a.PNG)
 
 **Pusher l'image créé vers [Docker HUB](https://hub.docker.com/):**
+
+**Commandes:**
+```bash
+ docker login
+ docker tag devops saramekhoukhe/devops
+ docker push saramekhoukhe/devops
+```
 ![App Screenshot](https://user-images.githubusercontent.com/115075351/209585828-877b2266-3cad-40f3-8185-7cdd8f8af338.PNG)
  
  **L'image sur [Docker HUB](https://hub.docker.com/):**
@@ -71,6 +78,10 @@ Image créé:
 
 ## 5. L'orchestration des conteneurs à l'aide de Docker Compose
 Le fichier Docker Compose:
+
+```bash
+ docker-compose up
+```
 ![App Screenshot](https://user-images.githubusercontent.com/115075351/209585961-523f071f-5470-4de5-8306-e304cfde5b8c.PNG)
 ![App Screenshot](https://user-images.githubusercontent.com/115075351/209585965-3899337f-eee8-48e1-b3d5-5fc1795d22dc.PNG)
 
