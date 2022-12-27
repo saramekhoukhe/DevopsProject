@@ -160,7 +160,7 @@ kubectl create -f pod.yml
 
 istio [Voir ces instructions](https://github.com/GoogleCloudPlatform/microservices-demo/blob/main/docs/service-mesh.md/)
 
-Anthos Service Mesh [Voir ces instructions:](https://github.com/GoogleCloudPlatform/microservices-demo/blob/main/docs/service-mesh.md)
+Anthos Service Mesh [Voir ces instructions](https://github.com/GoogleCloudPlatform/microservices-demo/blob/main/docs/service-mesh.md)
 
 
 Clusters (Minikube) [Developement Guide](https://github.com/GoogleCloudPlatform/microservices-demo/blob/main/docs/development-guide.md)
