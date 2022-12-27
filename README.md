@@ -11,8 +11,11 @@
 ![Logo](https://user-images.githubusercontent.com/115075351/209720478-0ab44163-49f6-4dfd-a51e-0091cf9ede44.png)
 
 
-## 1. Création d'une application Web avec NodeJs:
-Pour commencer, nous avons créé une application API utilisateur avec la fonctionnalité utilisateur CRUD avec NodeJs en stockant les donnees dans une base de donnees  [MongoDB](https://www.mongodb.com/atlas/database).
+## 1. Création d'une application Web avec NodeJs
+Pour commencer, nous avons créé une application API utilisateur avec la fonctionnalité utilisateur CRUD avec NodeJs en stockant les donnees dans une base de donnees  [MongoDB](https://www.mongodb.com/atlas/database). 
+
+Le code de l'application API utilisateur avec la fonctionnalité utilisateur CRUD: [APP](https://github.com/saramekhoukhe/DevopsProject/blob/main/routes/posts.js)
+
 
 #### Ses fonctionalitées:
 
