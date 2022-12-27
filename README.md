@@ -51,7 +51,7 @@ Nous avons ensuite exécuté la commande:
 ![App Screenshot](https://user-images.githubusercontent.com/115075351/209585263-0e62eb5e-a400-4c0f-9756-7d0774924ed4.PNG)
 
 ## 4. Création d'une image Docker de votre application
-####Etapes suivies:
+#### Commandes:
 ```bash
  ENTRYPOINT ls -l /
  docker build -t devops
