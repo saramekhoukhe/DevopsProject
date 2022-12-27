@@ -1,11 +1,16 @@
 
 ## 1. Création d'une application Web avec NodeJs:
-Pour commencer, on a cree une application API utilisateur avec la fonctionnalité utilisateur CRUD avec NodeJs en stockant les donnees dans une base de donnees MongoDB.
+Pour commencer, nous avons créé une application API utilisateur avec la fonctionnalité utilisateur CRUD avec NodeJs en stockant les donnees dans une base de donnees MongoDB.
+-Ses fonctionalitées:
+POST: Ajouter et publier un USER (Username et UserInfos) dans la base de données
+GET:  Récupérer les informations des USERS de la base de données en utilisant _Id attribué par cette dernière lors du POST
+PUT: Mettre à jour, modifier un USER déjà existant dans la base de données
+DELETE: Supprimer un USER de la base de données
 
-![App Screenshot](https://user-images.githubusercontent.com/115075351/209561658-f2d27c44-466c-40ab-a2b6-26ca28e6d3da.PNG)
-On a verifie le bon fonctionnement de l'application avec Postman.
-
+Nous avons verifié le bon fonctionnement de l'application via POSTMAN:
 ![App Screenshot](https://user-images.githubusercontent.com/115075351/209561222-e37469c0-3484-41c6-a8c3-8c5189f994a6.PNG)
+Le résultat sur la base de données MongoDB:
+![App Screenshot](https://user-images.githubusercontent.com/115075351/209561658-f2d27c44-466c-40ab-a2b6-26ca28e6d3da.PNG)
 
 ## 2. Application du pipeline CI/CD
 Pour l'Intégration Continue, on a utilisé Github Action.
