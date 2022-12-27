@@ -79,6 +79,7 @@ Image créé:
 ## 5. L'orchestration des conteneurs à l'aide de Docker Compose
 Le fichier Docker Compose:
 
+**Commandes:**
 ```bash
  docker-compose up
 ```
