@@ -105,11 +105,26 @@ Le fichier Docker Compose:
 **Commandes**
 ```bash
 minikube start
+kubectl get nodes
 ```
 
 ![App Screenshot](https://user-images.githubusercontent.com/115075351/209670175-f989d4b7-ea00-4b34-b6b7-69c38233b96f.PNG)
 
-![App Screenshot](https://user-images.githubusercontent.com/115075351/209670175-f989d4b7-ea00-4b34-b6b7-69c38233b96f.PNG)
+![App Screenshot](https://user-images.githubusercontent.com/115075351/209670539-6016e7ef-f50f-4c83-a41f-1a4195ceae8b.PNG)
+
+**Création des fichiers YAML de manifeste Kubernetes**
+**Commandes**
+```bash
+vi pod.yml
+kubectl create -f pod.yml
+```
+-Services: [pod-service.yml](https://github.com/saramekhoukhe/DevopsProject/blob/main/pod-service.yml)
+
+-Deployment: [deployment.yml](https://github.com/saramekhoukhe/DevopsProject/blob/main/deployment.yml)
+
+
+
+
 
 
 
