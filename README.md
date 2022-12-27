@@ -28,8 +28,11 @@ Le code de l'application API utilisateur avec la fonctionnalité utilisateur CRU
 **DELETE**: Supprimer un USER de la base de données
 
 Nous avons verifié le bon fonctionnement de l'application via **POSTMAN**:
+
 ![App Screenshot](https://user-images.githubusercontent.com/115075351/209561222-e37469c0-3484-41c6-a8c3-8c5189f994a6.PNG)
+
 Le résultat sur la base de données  [MongoDB](https://www.mongodb.com/atlas/database):
+
 ![App Screenshot](https://user-images.githubusercontent.com/115075351/209561658-f2d27c44-466c-40ab-a2b6-26ca28e6d3da.PNG)
 
 ## 2. Application du pipeline CI/CD
