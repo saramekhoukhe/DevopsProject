@@ -141,7 +141,43 @@ kubectl create -f pod.yml
 
 -Deployment: [deployment.yml](https://github.com/saramekhoukhe/DevopsProject/blob/main/deployment.yml)
 
-## 7.Servive Mesh avec Istio
+## 7. Service Mesh avec Istio
+
+#### Installation Istio:
+```bash
+curl -L https://istio.io/downloadIstio | ISTIO_VERSION=1.16.1 TARGET_ARCH=x86_64 sh -
+cd istio-1.16.1
+export PATH=$PWD/bin:$PATH
+istioctl install --set profile=demo -y
+```
+
+![App Screenshot](https://user-images.githubusercontent.com/115075351/209744832-50cb218b-c161-471f-9a4e-66696186f5a1.PNG)
+
+-Pour deployer, on a utilisé ` kubectl apply -f `
+
+## 8. Monitoring
+
+#### Installation Prometheus & Grafana
+```bash
+kubectl apply -f k8s/prometheus.yaml
+kubectl apply -f k8s/grafana.yaml
+kubectl get pods,svc,replicaset,deploy -n monitoring
+```
+
+-Pour déployer Dashboard:
+
+```bash
+kubectl apply -f ./k8s/dashboard-v2.2.0-recommended.yaml
+```
+-Accéder au tableau de bord:
+
+```bash
+kubectl proxy
+```
+
+-Adresse:
+
+http://localhost:8080/api/v1/namespaces/kubernetes-dashboard/services/https:kubernetes-dashboard:/proxy/
 
 
 ## Documentation
